@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function Header() {
     return (
         <React.Fragment>
-            <nav className="navbar navbar-expand-lg bg-primary" >
+            <nav className="navbar navbar-expand-lg navbar-light bg-primary" >
                 <div className="container">
                     <NavLink to="/" className="navbar-brand">App</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
